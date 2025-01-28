@@ -125,9 +125,8 @@
   justify-content: center;
   gap: 40px;
   list-style-type: none;
+  padding-left: 20px;
 }
-
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 
 .card {
   background-color: #fff;
@@ -161,7 +160,7 @@
 }
 
 .card__footer {
-  margin: 0;
+  margin: auto 0 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
