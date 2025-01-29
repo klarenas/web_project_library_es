@@ -123,9 +123,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 40px 40px;
   list-style-type: none;
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 .card {
