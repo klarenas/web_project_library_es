@@ -259,7 +259,7 @@
 
 .person_name_cannon {
   bottom: 18px;
-right: 216px;*/
+  right: 216px;
 }
 
 .person_name_mitchell {
@@ -269,7 +269,8 @@ right: 216px;*/
 
 .person_name_tarter {
   top: 79px;
-  left: 159px;}
+  left: 159px;
+}
 
 .person__image {
   max-width: 100%;
