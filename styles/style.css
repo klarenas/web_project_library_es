@@ -156,6 +156,8 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
+}
+.card__text_display {
   display: contents;
 }
 
@@ -294,7 +296,7 @@
   margin: 0;
 }
 .membership {
-  padding: 100px 0 140px;
+  padding: 100px 80px 140px 80px;
   background-color: #057bf2;
   color: #ffffff;
 }
@@ -312,10 +314,15 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
   /* Agrega estilos */
 }
 
 .step {
+  width: 220px;
+
   /* Agrega estilos */
 }
 
@@ -337,32 +344,45 @@
 }
 
 .footer {
+  padding: 60px 80px;
+  display: flex;
   box-sizing: border-box;
+  background-color: black;
+  color: white;
 }
 
 .footer__columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px 140px;
+  flex-wrap: wrap;
 }
 
 .footer__column_content_hours {
+  padding: 60px 80px 140px;
 }
 
 .footer__column_content_social {
+  border-width: 0;
 }
 
 .footer__logo {
+  color: #ffffff;
+  padding: 60px 0 160px 80px;
 }
 
 .footer__column-heading {
+  padding-bottom: 20px;
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
+  padding-bottom: 16px;
 }
 
 .footer__column-link {
@@ -371,6 +391,7 @@
 }
 
 .footer__social-icon {
+  padding-right: 10px;
 }
 
 .footer__copyright {
