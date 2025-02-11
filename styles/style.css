@@ -345,34 +345,35 @@
 
 .footer {
   padding: 60px 80px;
-  display: flex;
+
   box-sizing: border-box;
   background-color: black;
   color: white;
 }
 
 .footer__columns {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 60px 80px 140px;
+
   flex-wrap: wrap;
 }
 
 .footer__column_content_hours {
-  padding: 60px 80px 140px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   border-width: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
   color: #ffffff;
-  padding: 60px 0 160px 80px;
 }
 
 .footer__column-heading {
-  padding-bottom: 20px;
+  margin: auto;
 }
 
 .footer__list {
@@ -391,7 +392,6 @@
 }
 
 .footer__social-icon {
-  padding-right: 10px;
 }
 
 .footer__copyright {
