@@ -296,7 +296,7 @@
   margin: 0;
 }
 .membership {
-  padding: 100px 80px 140px 80px;
+  padding: 100px 0 140px;
   background-color: #057bf2;
   color: #ffffff;
 }
@@ -317,13 +317,10 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-  /* Agrega estilos */
 }
 
 .step {
-  width: 220px;
-
-  /* Agrega estilos */
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -345,9 +342,8 @@
 
 .footer {
   padding: 60px 80px;
-
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
 }
 
@@ -355,7 +351,6 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-
   flex-wrap: wrap;
 }
 
@@ -369,12 +364,13 @@
 }
 
 .footer__logo {
-  color: #ffffff;
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
   margin: auto;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -388,14 +384,22 @@
 }
 
 .footer__column-link {
+  display: flex;
   color: white;
   text-decoration: none;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 0;
 }
 
 .footer__copyright {
-  padding-top: 100px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: small;
 }
